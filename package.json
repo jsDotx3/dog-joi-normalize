@@ -1,6 +1,6 @@
 {
   "name": "dog-joi-normalize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Normalize error for Joi Validation in Express",
   "scripts": {
     "lint": "eslint ./lib",

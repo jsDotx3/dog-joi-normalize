@@ -38,9 +38,7 @@ For more errors, visit [Documentation Joi](https://hapi.dev/family/joi)
 👤 **Jose Nuñez A**
 
 * Website: https://twitter.com/jsDotx3
-* Twitter: [@jsDotx3](https://twitter.com/jsDotx3)
 * Github: [@jsDotx3](https://github.com/jsDotx3)
-* LinkedIn: [@jsdotx3](https://linkedin.com/in/jsdotx3)
 
 ## 🤝 Contributing
 
