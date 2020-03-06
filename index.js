@@ -1,0 +1,1 @@
+exports.validation = require('./lib/validation.middleware');

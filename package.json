@@ -1,0 +1,50 @@
+{
+  "name": "dog-joi-normalize",
+  "version": "0.1.0",
+  "description": "Normalize error for Joi Validation in Express",
+  "scripts": {
+    "lint": "eslint ./lib",
+    "lint:fix": "eslint --ignore-path .gitignore ./lib --fix",
+    "pretty": "prettier --write \"lib/**/*.js\"",
+    "precommit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:fix",
+      "pre-push": "npm test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsDotx3/dog-joi-normalize.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "faker": "^4.1.0",
+    "husky": "^4.2.3",
+    "mocha": "^7.0.1",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "joi",
+    "hapi",
+    "express",
+    "js",
+    "node"
+  ],
+  "author": "Jose Nuñez A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsDotx3/dog-joi-normalize/issues"
+  },
+  "homepage": "https://github.com/jsDotx3/dog-joi-normalize#readme",
+  "dependencies": {
+    "joi": "^14.3.1"
+  }
+}

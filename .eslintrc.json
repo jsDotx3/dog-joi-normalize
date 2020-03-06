@@ -1,0 +1,27 @@
+{
+  "extends":  ["google","prettier"],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "node": true,
+    "browser": false,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "camelcase": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 100,
+        "trailingComma": "all"
+      }
+    ]
+  }
+}
+
+
